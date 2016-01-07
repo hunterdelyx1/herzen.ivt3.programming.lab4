@@ -1,0 +1,123 @@
+/usr/lib/jvm/java-8-openjdk/bin/java -Dmaven.home=/usr/share/intellijidea-ce/plugins/maven/lib/maven3 -Dclassworlds.conf=/usr/share/intellijidea-ce/plugins/maven/lib/maven3/bin/m2.conf -Didea.launcher.port=7543 -Didea.launcher.bin.path=/usr/share/intellijidea-ce/bin -Dfile.encoding=UTF-8 -classpath /usr/share/intellijidea-ce/plugins/maven/lib/maven3/boot/plexus-classworlds-2.4.jar:/usr/share/intellijidea-ce/lib/idea_rt.jar com.intellij.rt.execution.application.AppMain org.codehaus.classworlds.Launcher -Didea.version=15.0.2 clean validate compile test package verify
+[INFO] Scanning for projects...
+[WARNING]
+[WARNING] Some problems were encountered while building the effective model for ru.spb.herzen.ivt3:orlov_lab4:jar:1.0-SNAPSHOT
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-jar-plugin is missing. @ line 37, column 21
+[WARNING]
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING]
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING]
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] Building orlov_lab4 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO]
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ orlov_lab4 ---
+[INFO] Deleting /home/xunto/IdeaProjects/lab4/target
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ orlov_lab4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/xunto/IdeaProjects/lab4/target/classes
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ orlov_lab4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ orlov_lab4 ---
+[INFO] Changes detected - recompiling the module!
+[INFO] Compiling 1 source file to /home/xunto/IdeaProjects/lab4/target/test-classes
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ orlov_lab4 ---
+[INFO] Surefire report directory: /home/xunto/IdeaProjects/lab4/target/surefire-reports
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running ru.spb.herzen.ivt3.AppTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.022 sec
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ orlov_lab4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ orlov_lab4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ orlov_lab4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ orlov_lab4 ---
+[INFO] Building jar: /home/xunto/IdeaProjects/lab4/target/orlov_lab4-1.0-SNAPSHOT.jar
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ orlov_lab4 ---
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/xunto/IdeaProjects/lab4/target/orlov_lab4-1.0-SNAPSHOT.jar with /home/xunto/IdeaProjects/lab4/target/orlov_lab4-1.0-SNAPSHOT-shaded.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ orlov_lab4 ---
+[INFO]
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:resources (default-resources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/main/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ orlov_lab4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-resources-plugin:2.5:testResources (default-testResources) @ orlov_lab4 ---
+[debug] execute contextualize
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/xunto/IdeaProjects/lab4/src/test/resources
+[INFO]
+[INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ orlov_lab4 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO]
+[INFO] --- maven-surefire-plugin:2.10:test (default-test) @ orlov_lab4 ---
+[INFO] Skipping execution of surefire because it has already been run for this configuration
+[INFO]
+[INFO] --- maven-jar-plugin:2.3.2:jar (default-jar) @ orlov_lab4 ---
+[INFO]
+[INFO] --- maven-shade-plugin:2.4.2:shade (default) @ orlov_lab4 ---
+[INFO] Replacing original artifact with shaded artifact.
+[INFO] Replacing /home/xunto/IdeaProjects/lab4/target/orlov_lab4-1.0-SNAPSHOT.jar with /home/xunto/IdeaProjects/lab4/target/orlov_lab4-1.0-SNAPSHOT-shaded.jar
+[INFO]
+[INFO] --- maven-checkstyle-plugin:2.6:check (default) @ orlov_lab4 ---
+[INFO]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 1.665s
+[INFO] Finished at: Thu Jan 07 22:40:17 MSK 2016
+[INFO] Final Memory: 21M/273M
+[INFO] ------------------------------------------------------------------------
+
+Process finished with exit code 0
